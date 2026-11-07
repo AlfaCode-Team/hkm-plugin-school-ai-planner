@@ -1,0 +1,22 @@
+{
+    "name": "school-ai-planner",
+    "version": "0.1.0",
+    "kernel": "^1.19.0",
+    "solves": "school.ai_planner",
+    "type": "module",
+    "requires": [
+        "database.management",
+        "http.client",
+        "storage.local",
+        "school.curriculum"
+    ],
+    "exposes": [
+        "Plugins\\SchoolAiPlanner\\API\\Contracts\\SchoolAiPlannerContract"
+    ],
+    "routes": [],
+    "emits": [],
+    "listens": [],
+    "files": [],
+    "documentation": "AI-assisted lesson sheets (fiches pedagogiques), questionnaires and teacher evaluations.",
+    "config": []
+}
